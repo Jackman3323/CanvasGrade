@@ -1,6 +1,6 @@
 //
 //  SafariWebExtensionHandler.swift
-//  CanvasGrade++ Extension
+//  CanvasGrade Extension
 //
 //  Created by Jack Hughes on 10/19/20.
 //

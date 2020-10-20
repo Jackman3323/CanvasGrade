@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3C9A117253E920F0046A777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9A116253E920F0046A777 /* AppDelegate.swift */; };
+		A3C9A11A253E920F0046A777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A118253E920F0046A777 /* Main.storyboard */; };
+		A3C9A11C253E920F0046A777 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9A11B253E920F0046A777 /* ViewController.swift */; };
+		A3C9A11E253E92100046A777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A11D253E92100046A777 /* Assets.xcassets */; };
+		A3C9A129253E92100046A777 /* CanvasGradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9A128253E92100046A777 /* CanvasGradeTests.swift */; };
+		A3C9A134253E92100046A777 /* CanvasGradeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9A133253E92100046A777 /* CanvasGradeUITests.swift */; };
+		A3C9A13B253E92100046A777 /* CanvasGrade Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A3C9A13A253E92100046A777 /* CanvasGrade Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A3C9A140253E92100046A777 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C9A13F253E92100046A777 /* Cocoa.framework */; };
+		A3C9A143253E92100046A777 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C9A142253E92100046A777 /* SafariWebExtensionHandler.swift */; };
+		A3C9A146253E92100046A777 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A145253E92100046A777 /* _locales */; };
+		A3C9A148253E92100046A777 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A147253E92100046A777 /* images */; };
+		A3C9A14A253E92100046A777 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A149253E92100046A777 /* manifest.json */; };
+		A3C9A14C253E92100046A777 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A14B253E92100046A777 /* background.js */; };
+		A3C9A14E253E92100046A777 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A14D253E92100046A777 /* content.js */; };
+		A3C9A150253E92100046A777 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A14F253E92100046A777 /* popup.html */; };
+		A3C9A152253E92100046A777 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A151253E92100046A777 /* popup.css */; };
+		A3C9A154253E92100046A777 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A153253E92100046A777 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3C9A125253E92100046A777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3C9A10A253E920F0046A777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3C9A111253E920F0046A777;
+			remoteInfo = CanvasGrade;
+		};
+		A3C9A130253E92100046A777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3C9A10A253E920F0046A777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3C9A111253E920F0046A777;
+			remoteInfo = CanvasGrade;
+		};
+		A3C9A13C253E92100046A777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3C9A10A253E920F0046A777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3C9A139253E92100046A777;
+			remoteInfo = "CanvasGrade Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3C9A15C253E92100046A777 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A3C9A13B253E92100046A777 /* CanvasGrade Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3C9A112253E920F0046A777 /* CanvasGrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanvasGrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C9A115253E920F0046A777 /* CanvasGrade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CanvasGrade.entitlements; sourceTree = "<group>"; };
+		A3C9A116253E920F0046A777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3C9A119253E920F0046A777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3C9A11B253E920F0046A777 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3C9A11D253E92100046A777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3C9A11F253E92100046A777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C9A124253E92100046A777 /* CanvasGradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasGradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C9A128253E92100046A777 /* CanvasGradeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasGradeTests.swift; sourceTree = "<group>"; };
+		A3C9A12A253E92100046A777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C9A12F253E92100046A777 /* CanvasGradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasGradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C9A133253E92100046A777 /* CanvasGradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasGradeUITests.swift; sourceTree = "<group>"; };
+		A3C9A135253E92100046A777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C9A13A253E92100046A777 /* CanvasGrade Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CanvasGrade Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C9A13F253E92100046A777 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A3C9A142253E92100046A777 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		A3C9A145253E92100046A777 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		A3C9A147253E92100046A777 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		A3C9A149253E92100046A777 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		A3C9A14B253E92100046A777 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		A3C9A14D253E92100046A777 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		A3C9A14F253E92100046A777 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		A3C9A151253E92100046A777 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		A3C9A153253E92100046A777 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		A3C9A155253E92100046A777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C9A156253E92100046A777 /* CanvasGrade_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CanvasGrade_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3C9A10F253E920F0046A777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9A121253E92100046A777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9A12C253E92100046A777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9A137253E92100046A777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C9A140253E92100046A777 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3C9A109253E920F0046A777 = {
+			isa = PBXGroup;
+			children = (
+				A3C9A114253E920F0046A777 /* CanvasGrade */,
+				A3C9A127253E92100046A777 /* CanvasGradeTests */,
+				A3C9A132253E92100046A777 /* CanvasGradeUITests */,
+				A3C9A141253E92100046A777 /* CanvasGrade Extension */,
+				A3C9A13E253E92100046A777 /* Frameworks */,
+				A3C9A113253E920F0046A777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3C9A113253E920F0046A777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3C9A112253E920F0046A777 /* CanvasGrade.app */,
+				A3C9A124253E92100046A777 /* CanvasGradeTests.xctest */,
+				A3C9A12F253E92100046A777 /* CanvasGradeUITests.xctest */,
+				A3C9A13A253E92100046A777 /* CanvasGrade Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3C9A114253E920F0046A777 /* CanvasGrade */ = {
+			isa = PBXGroup;
+			children = (
+				A3C9A115253E920F0046A777 /* CanvasGrade.entitlements */,
+				A3C9A116253E920F0046A777 /* AppDelegate.swift */,
+				A3C9A118253E920F0046A777 /* Main.storyboard */,
+				A3C9A11B253E920F0046A777 /* ViewController.swift */,
+				A3C9A11D253E92100046A777 /* Assets.xcassets */,
+				A3C9A11F253E92100046A777 /* Info.plist */,
+			);
+			path = CanvasGrade;
+			sourceTree = "<group>";
+		};
+		A3C9A127253E92100046A777 /* CanvasGradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3C9A128253E92100046A777 /* CanvasGradeTests.swift */,
+				A3C9A12A253E92100046A777 /* Info.plist */,
+			);
+			path = CanvasGradeTests;
+			sourceTree = "<group>";
+		};
+		A3C9A132253E92100046A777 /* CanvasGradeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3C9A133253E92100046A777 /* CanvasGradeUITests.swift */,
+				A3C9A135253E92100046A777 /* Info.plist */,
+			);
+			path = CanvasGradeUITests;
+			sourceTree = "<group>";
+		};
+		A3C9A13E253E92100046A777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3C9A13F253E92100046A777 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3C9A141253E92100046A777 /* CanvasGrade Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A3C9A142253E92100046A777 /* SafariWebExtensionHandler.swift */,
+				A3C9A155253E92100046A777 /* Info.plist */,
+				A3C9A156253E92100046A777 /* CanvasGrade_Extension.entitlements */,
+				A3C9A144253E92100046A777 /* Resources */,
+			);
+			path = "CanvasGrade Extension";
+			sourceTree = "<group>";
+		};
+		A3C9A144253E92100046A777 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3C9A145253E92100046A777 /* _locales */,
+				A3C9A147253E92100046A777 /* images */,
+				A3C9A149253E92100046A777 /* manifest.json */,
+				A3C9A14B253E92100046A777 /* background.js */,
+				A3C9A14D253E92100046A777 /* content.js */,
+				A3C9A14F253E92100046A777 /* popup.html */,
+				A3C9A151253E92100046A777 /* popup.css */,
+				A3C9A153253E92100046A777 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3C9A111253E920F0046A777 /* CanvasGrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C9A15D253E92100046A777 /* Build configuration list for PBXNativeTarget "CanvasGrade" */;
+			buildPhases = (
+				A3C9A10E253E920F0046A777 /* Sources */,
+				A3C9A10F253E920F0046A777 /* Frameworks */,
+				A3C9A110253E920F0046A777 /* Resources */,
+				A3C9A15C253E92100046A777 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3C9A13D253E92100046A777 /* PBXTargetDependency */,
+			);
+			name = CanvasGrade;
+			productName = CanvasGrade;
+			productReference = A3C9A112253E920F0046A777 /* CanvasGrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3C9A123253E92100046A777 /* CanvasGradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C9A160253E92100046A777 /* Build configuration list for PBXNativeTarget "CanvasGradeTests" */;
+			buildPhases = (
+				A3C9A120253E92100046A777 /* Sources */,
+				A3C9A121253E92100046A777 /* Frameworks */,
+				A3C9A122253E92100046A777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3C9A126253E92100046A777 /* PBXTargetDependency */,
+			);
+			name = CanvasGradeTests;
+			productName = CanvasGradeTests;
+			productReference = A3C9A124253E92100046A777 /* CanvasGradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3C9A12E253E92100046A777 /* CanvasGradeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C9A163253E92100046A777 /* Build configuration list for PBXNativeTarget "CanvasGradeUITests" */;
+			buildPhases = (
+				A3C9A12B253E92100046A777 /* Sources */,
+				A3C9A12C253E92100046A777 /* Frameworks */,
+				A3C9A12D253E92100046A777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3C9A131253E92100046A777 /* PBXTargetDependency */,
+			);
+			name = CanvasGradeUITests;
+			productName = CanvasGradeUITests;
+			productReference = A3C9A12F253E92100046A777 /* CanvasGradeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A3C9A139253E92100046A777 /* CanvasGrade Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C9A159253E92100046A777 /* Build configuration list for PBXNativeTarget "CanvasGrade Extension" */;
+			buildPhases = (
+				A3C9A136253E92100046A777 /* Sources */,
+				A3C9A137253E92100046A777 /* Frameworks */,
+				A3C9A138253E92100046A777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CanvasGrade Extension";
+			productName = "CanvasGrade Extension";
+			productReference = A3C9A13A253E92100046A777 /* CanvasGrade Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3C9A10A253E920F0046A777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A3C9A111253E920F0046A777 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					A3C9A123253E92100046A777 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = A3C9A111253E920F0046A777;
+					};
+					A3C9A12E253E92100046A777 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = A3C9A111253E920F0046A777;
+					};
+					A3C9A139253E92100046A777 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A3C9A10D253E920F0046A777 /* Build configuration list for PBXProject "CanvasGrade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3C9A109253E920F0046A777;
+			productRefGroup = A3C9A113253E920F0046A777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3C9A111253E920F0046A777 /* CanvasGrade */,
+				A3C9A123253E92100046A777 /* CanvasGradeTests */,
+				A3C9A12E253E92100046A777 /* CanvasGradeUITests */,
+				A3C9A139253E92100046A777 /* CanvasGrade Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3C9A110253E920F0046A777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C9A11E253E92100046A777 /* Assets.xcassets in Resources */,
+				A3C9A11A253E920F0046A777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9A122253E92100046A777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9A12D253E92100046A777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9A138253E92100046A777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C9A14C253E92100046A777 /* background.js in Resources */,
+				A3C9A152253E92100046A777 /* popup.css in Resources */,
+				A3C9A150253E92100046A777 /* popup.html in Resources */,
+				A3C9A148253E92100046A777 /* images in Resources */,
+				A3C9A14A253E92100046A777 /* manifest.json in Resources */,
+				A3C9A146253E92100046A777 /* _locales in Resources */,
+				A3C9A14E253E92100046A777 /* content.js in Resources */,
+				A3C9A154253E92100046A777 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3C9A10E253E920F0046A777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C9A11C253E920F0046A777 /* ViewController.swift in Sources */,
+				A3C9A117253E920F0046A777 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9A120253E92100046A777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C9A129253E92100046A777 /* CanvasGradeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9A12B253E92100046A777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C9A134253E92100046A777 /* CanvasGradeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C9A136253E92100046A777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C9A143253E92100046A777 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3C9A126253E92100046A777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3C9A111253E920F0046A777 /* CanvasGrade */;
+			targetProxy = A3C9A125253E92100046A777 /* PBXContainerItemProxy */;
+		};
+		A3C9A131253E92100046A777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3C9A111253E920F0046A777 /* CanvasGrade */;
+			targetProxy = A3C9A130253E92100046A777 /* PBXContainerItemProxy */;
+		};
+		A3C9A13D253E92100046A777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3C9A139253E92100046A777 /* CanvasGrade Extension */;
+			targetProxy = A3C9A13C253E92100046A777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3C9A118253E920F0046A777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3C9A119253E920F0046A777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3C9A157253E92100046A777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3C9A158253E92100046A777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A3C9A15A253E92100046A777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "CanvasGrade Extension/CanvasGrade_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Q478Y4375;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "CanvasGrade Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack-Hughes.CanvasGrade-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A3C9A15B253E92100046A777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "CanvasGrade Extension/CanvasGrade_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Q478Y4375;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "CanvasGrade Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack-Hughes.CanvasGrade-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A3C9A15E253E92100046A777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CanvasGrade/CanvasGrade.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q478Y4375;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = CanvasGrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack-Hughes.CanvasGrade";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A3C9A15F253E92100046A777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CanvasGrade/CanvasGrade.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q478Y4375;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = CanvasGrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack-Hughes.CanvasGrade";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A3C9A161253E92100046A777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q478Y4375;
+				INFOPLIST_FILE = CanvasGradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack-Hughes.CanvasGradeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanvasGrade.app/Contents/MacOS/CanvasGrade";
+			};
+			name = Debug;
+		};
+		A3C9A162253E92100046A777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q478Y4375;
+				INFOPLIST_FILE = CanvasGradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack-Hughes.CanvasGradeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanvasGrade.app/Contents/MacOS/CanvasGrade";
+			};
+			name = Release;
+		};
+		A3C9A164253E92100046A777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q478Y4375;
+				INFOPLIST_FILE = CanvasGradeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack-Hughes.CanvasGradeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CanvasGrade;
+			};
+			name = Debug;
+		};
+		A3C9A165253E92100046A777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Q478Y4375;
+				INFOPLIST_FILE = CanvasGradeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack-Hughes.CanvasGradeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CanvasGrade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3C9A10D253E920F0046A777 /* Build configuration list for PBXProject "CanvasGrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C9A157253E92100046A777 /* Debug */,
+				A3C9A158253E92100046A777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C9A159253E92100046A777 /* Build configuration list for PBXNativeTarget "CanvasGrade Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C9A15A253E92100046A777 /* Debug */,
+				A3C9A15B253E92100046A777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C9A15D253E92100046A777 /* Build configuration list for PBXNativeTarget "CanvasGrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C9A15E253E92100046A777 /* Debug */,
+				A3C9A15F253E92100046A777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C9A160253E92100046A777 /* Build configuration list for PBXNativeTarget "CanvasGradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C9A161253E92100046A777 /* Debug */,
+				A3C9A162253E92100046A777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C9A163253E92100046A777 /* Build configuration list for PBXNativeTarget "CanvasGradeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C9A164253E92100046A777 /* Debug */,
+				A3C9A165253E92100046A777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3C9A10A253E920F0046A777 /* Project object */;
+}

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CanvasGrade++
+//  CanvasGrade
 //
 //  Created by Jack Hughes on 10/19/20.
 //

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  CanvasGrade++
+//  CanvasGrade
 //
 //  Created by Jack Hughes on 10/19/20.
 //
@@ -9,8 +9,8 @@ import Cocoa
 import SafariServices.SFSafariApplication
 import SafariServices.SFSafariExtensionManager
 
-let appName = "CanvasGrade++"
-let extensionBundleIdentifier = "Jack-Hughes.CanvasGrade---Extension"
+let appName = "CanvasGrade"
+let extensionBundleIdentifier = "Jack-Hughes.CanvasGrade-Extension"
 
 class ViewController: NSViewController {
 

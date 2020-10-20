@@ -1,14 +1,14 @@
 //
-//  CanvasGrade__Tests.swift
-//  CanvasGrade++Tests
+//  CanvasGradeTests.swift
+//  CanvasGradeTests
 //
 //  Created by Jack Hughes on 10/19/20.
 //
 
 import XCTest
-@testable import CanvasGrade__
+@testable import CanvasGrade
 
-class CanvasGrade__Tests: XCTestCase {
+class CanvasGradeTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
