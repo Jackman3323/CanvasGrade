@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "CanvasGrade++",
+	"version": "0.0.0",
+	"author": "Jack Hughes",
+	"permissions": [
+		"https://kentdenver.instructure.com/courses/*/grades",
+			"tabs",
+			"storage"
+	],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"browser_action": {
+		"default_icon" : "icon.png"
+	}
+}
